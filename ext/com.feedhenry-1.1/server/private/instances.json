@@ -1,0 +1,37 @@
+[{
+  "fields": {
+    "accessType": "",
+    "collapsed": false,
+    "color": "",
+    "config": {
+      "deploy": {"url": {"dev": "https://spargonet-zkey8oh4ts4wkw8wwsl7flgd-dev_spargonet.df.dev.e111.feedhenry.net"}},
+      "icon": {"small": "default"},
+      "notification_email": "keyang.xiang@feedhenry.com",
+      "preview": {"device": "iphone_4"}
+    },
+    "containerCriteria": "",
+    "description": "",
+    "disabled": false,
+    "discover": false,
+    "dock": "",
+    "email": "keyang.xiang@feedhenry.com",
+    "fixedPos": false,
+    "height": 480,
+    "iconLarge": "",
+    "iconSmall": "",
+    "mobileFullScreen": false,
+    "origin": "",
+    "overrides": {},
+    "params": {},
+    "prefsEditable": false,
+    "ratingData": {},
+    "screenShot": "",
+    "sharable": false,
+    "sizeEditable": false,
+    "title": "My First Node",
+    "titleEditable": false,
+    "type": "",
+    "width": 320
+  },
+  "sharing": []
+}]
