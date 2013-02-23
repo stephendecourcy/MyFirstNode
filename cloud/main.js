@@ -1,5 +1,3 @@
-var util = require('util');
-
 exports.myFunction = function(params, callback) {
   var num = params.num;
   if(num > 10){
