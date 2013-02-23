@@ -7,9 +7,6 @@ call which will return the remote config.
 */
 
 $fh.ready(function() {
-  // The local config variable from config.js can be accessed directly
-  document.getElementById('localConfig').innerHTML = "<p>Hello World</p>";
-
   document.getElementById('run_button').onclick = function() {
     
     var rand = Math.floor((Math.random()*10)+1);
