@@ -36,13 +36,13 @@ $fh.ready(function() {
   
     document.getElementById('red_button').onclick = function() {
     
-    var rand = Math.floor((Math.random()*10)+1);
+    var rand = 33;
     document.getElementById('localConfig').innerHTML = "<p>"+ rand +"</p>";
     // Invoke a cloud action call to get the remote configuration
     // See: http://docs.feedhenry.com/wiki/Actions
     $fh.act(
       {
-        act:'myFunction',
+        act:'myFunction2',
         req: {
           num: rand
         }
