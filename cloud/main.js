@@ -6,11 +6,17 @@ exports.myFunction = function(params, callback) {
   callback(undefined, {result: num});
 };
 
-exports.myFunction2 = function(params, callback) {
+exports.redFunction = function(params, callback) {
   var num = params.num;
   if(num != 33){
     return callback({err: 'Num Wrong'}, {result: num});
   }
   callback(undefined, {result: num});
 };
-
+exports.greenFunction = function(params, callback) {
+  var num = params.num;
+  if(num == 33){
+    return callback({err: 'Num Wrong'}, {result: num});
+  }
+  callback(undefined, {result: num});
+};
