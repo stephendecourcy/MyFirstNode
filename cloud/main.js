@@ -8,7 +8,7 @@ exports.myFunction = function(params, callback) {
 
 exports.myFunction2 = function(params, callback) {
   var num = params.num;
-  if(num == 33){
+  if(num != 33){
     return callback({err: 'Num Wrong'}, {result: num});
   }
   callback(undefined, {result: num});
