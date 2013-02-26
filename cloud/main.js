@@ -8,7 +8,7 @@ exports.myFunction = function(params, callback) {
 
 
 exports.redFunction = function(params, callback) {
-  callback({err: 'Red Error'});
+  callback({err: 'Red Error - Fail'});
 };
 
 
