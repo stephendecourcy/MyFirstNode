@@ -9,14 +9,14 @@ exports.myFunction = function(params, callback) {
 exports.redFunction = function(params, callback) {
   var num = params.num;
   if(num != 33){
-    return callback({err: 'Not 33'}, {result: num});
+    return callback({err: 'happy'}, {result: num});
   }
   callback(undefined, {result: num});
 };
 exports.greenFunction = function(params, callback) {
   var num = params.num;
   if(num == 33){
-    return callback({err: 'not 33'}, {result: num});
+    return callback({err: 'tired'}, {result: num});
   }
   callback(undefined, {result: num});
 };
