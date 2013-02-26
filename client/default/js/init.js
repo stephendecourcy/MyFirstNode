@@ -60,7 +60,7 @@ $fh.ready(function() {
   
     document.getElementById('green_button').onclick = function() {
     
-    var rand = 34;
+    var rand = 33;
     document.getElementById('localConfig').innerHTML = "<p>"+ rand +"</p>";
     // Invoke a cloud action call to get the remote configuration
     // See: http://docs.feedhenry.com/wiki/Actions
