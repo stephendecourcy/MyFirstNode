@@ -16,7 +16,7 @@ exports.redFunction = function(params, callback) {
 exports.greenFunction = function(params, callback) {
   var num = params.num;
   if(num == 33){
-    return callback({err: 'tired'}, {result: num});
+    return callback({err: 'sad'}, {result: num});
   }
   callback(undefined, {result: num});
 };
